@@ -70,6 +70,17 @@ body {
   margin: 0 auto;
   padding: 20px 0;
 }
+.testimony__pattern {
+  position: relative;
+  z-index: 1;
+}
+.testimony__pattern::before {
+  content: url('./images/bg-pattern-quotation.svg');
+  position: absolute;
+  top: 0;
+  right: 52px;
+  z-index: -1;
+}
 .testimony__profile {
   display: flex;
   align-items: center;
